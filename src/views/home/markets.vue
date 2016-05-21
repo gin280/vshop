@@ -1,5 +1,5 @@
 <template>
-  <div class="buy-markets lazyData">
+  <div class="buy-markets lazyData" style="margin-bottom:10px;">
     <div class="markets-wrap module-list-wrap module-wrap">
       <div class="module-title">特色市场</div>
       <div class="module-content">
@@ -43,6 +43,9 @@ export default {
     justify-content: center;
     align-items: center;
     margin-top: 1%;
+    a {
+      text-decoration: none;
+    }
     /*background-color: red;*/
     .module-item {
      /* width: 25%;*/

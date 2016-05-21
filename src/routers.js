@@ -21,6 +21,12 @@ module.exports = function (router) {
     'login': {
       name: 'login',
       component: require('./views/login.vue')
+    },
+    '/cart': {
+      name: 'cart',
+      component: function (reslove) {
+        return require(['./views/cart/index.vue'], reslove)
+      }
     }
   })
 
